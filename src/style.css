@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: #092032;
+}
+
+img {
+  width: 100%;
+}
+.semi_nav {
+  background-color: deeppink;
+}
+.navbar-expand-lg .navbar-nav .nav_contact {
+  background-color: deeppink;
+  border: 1px solid deeppink;
+  border-radius: 5px;
+  /* width: 40px; */
+}
+.nav_Link > .icon_nav {
+  height: 34px;
+  display: inline-block;
+  width: 34px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.304);
+  margin-left: 5px;
+  color: white;
+  transition: all 0.5s ease;
+}
+.nav_Link > .icon_nav:hover
+{
+  background-color: white;
+  color: deeppink;
+}
+.corousel_img
+{
+  width: 100%;
+  height: 82vh;
+}
+.carousel-caption
+{
+  bottom:10rem;
+  letter-spacing: 0.5px;
+  text-align: start;
+}
+.carousel-caption > h1
+{
+  font-size: 70px;
+}
+.carousel-indicators .active
+{
+  background-color: deeppink;
+}
+/* todo: Media queries */
+@media (max-width: 576px) {
+  .corousel_img
+{
+  width: 100%;
+  height: 40vh;
+}
+.carousel-caption > h1
+{
+  font-size: 25px;
+  color: #092032;
+}
+.carousel-caption > p
+{
+  font-size: 16px;
+  color:deeppink;
+}
+.carousel-caption
+{
+  bottom:1rem;
+  letter-spacing: 0.1px;
+  text-align: start;
+}
+}
+
+@media (min-width: 768px) {
+  .corousel_img
+{
+  width: 100%;
+  height: 82vh;
+}
+.carousel-caption > h1
+{
+  font-size: 70px;
+}
+}
+
+@media (min-width: 992px) {
+  .corousel_img
+{
+  width: 100%;
+  height: 82vh;
+}
+.carousel-caption > h1
+{
+  font-size: 70px;
+}
+}
+
+@media (min-width: 1200px) {
+  .corousel_img
+{
+  width: 100%;
+  height: 82vh;
+}
+.carousel-caption > h1
+{
+  font-size: 70px;
+}
+}
+
+@media (min-width: 1400px) {
+  .corousel_img
+{
+  width: 100%;
+  height: 82vh;
+}
+.carousel-caption > h1
+{
+  font-size: 70px;
+}
+}

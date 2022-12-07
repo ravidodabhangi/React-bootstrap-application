@@ -1,0 +1,20 @@
+{
+    "auto-close-tag.disableOnLanguage": [
+    
+    ],
+    "emmet.preferences": {
+    
+    },
+    "editor.quickSuggestions": {
+        "comments": false, // <- no 24x7 IntelliSense in comments
+        "strings": true, // but in strings and the other parts of source files
+        "other": true
+    },
+    "html-css-class-completion.enableEmmetSupport": true,
+    "html-css-class-completion.CSSLanguages": [
+
+        "css",
+        "sass",
+        "scss"
+    ]
+}
